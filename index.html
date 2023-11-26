@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="head">
+        <h1>Weather</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <div id="current-weather">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="time"></p>
+            </div>
+            <div class="navbar">
+                <a href="#temperature" class="nav-item">Temperature</a>
+                <a href="#precipitation" class="nav-item">Precipitation</a>
+                <a href="#wind" class="nav-item">Wind</a>
+             </div>
+             
+            <!-- 7 days weather forecast-->
+            <div id="forecast">
+                <p id="day"></p>
+                <p id="day"></p>
+                <p id="day"></p>
+                <p id="day"></p>
+                <p id="day"></p>
+                <p id="day"></p>
+                <p id="day"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<footer class="foot">
+</footer>
+</body>
+</html>
